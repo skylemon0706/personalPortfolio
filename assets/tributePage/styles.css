@@ -1,0 +1,55 @@
+h1
+{
+  color: rgb(200,140,60);
+  background: rgb(190,200,190);
+  text-align: center;
+  font-family: monospace;
+  height: 50px;
+  padding-top: 20px;
+  width: 90%;
+  margin:auto;
+  font-size: 40px;
+}
+h2
+{
+  color: rgb(0,140,255);
+  background: rgb(190,200,190);
+  text-align: center;
+  font-family: monospace;
+  height: 50px;
+  width: 90%;
+  margin:auto;
+  font-size: 20px;
+}
+#image
+{
+  display: block;
+  width: 50%;
+  max-width: 1600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+}
+#img-caption
+{
+  text-align: center;
+  font-family: Monospace;
+  font-size: 250%;
+  margin-top: 1%;
+}
+#tribute-info
+{
+  width:80%; 
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  line-height: 1.5em;
+  border: dashed;
+  border-width:1px;
+  padding: 3.5%;
+}
+
+a:hover{
+  color: red;
+}

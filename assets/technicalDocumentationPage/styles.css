@@ -1,0 +1,54 @@
+/* this html is meant to bejust a framework for a python documentation page.I have added all the links in the navigation bar on the left to show that I am capable of designing sites pages like these and do much more with the design. Feel free to change the headings and make a simple documentation page with this framework.  */
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 290px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 0, 0,0.5);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+  }
+  #main-doc{
+    margin-left:310px;
+  }
+  @media(max-width:450px){
+    #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+    border-bottom: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    overflow-y:scroll;
+      display:flex;
+      flex-direction:column;
+      
+  }
+    #main-doc{
+    margin-top:200px;
+    margin-left:0px;
+  }
+  }
+  header{
+    font-family:poiret one;
+    font-size:2.5rem;
+  }
+  #navbar>header{
+    text-align:center;
+  }
+  a:link{
+    text-decoration:none;
+    color:black;
+    font-family:poiret one;
+    font-size:1.5em;
+  }
+  a:hover{
+    transform:scale(1.1);
+  }

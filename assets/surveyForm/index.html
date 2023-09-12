@@ -1,0 +1,88 @@
+<link href="https://fonts.googleapis.com/css2?family=Akronim&family=Alex+Brush&display=swap" rel="stylesheet">
+<link href="./styles.css" rel="stylesheet">
+<div id="top part">
+  <h1 id="title"><em>COVID VACCINATION STATUS</em></h1>
+<p id="description">Please Provide Your Covid Vaccination Status</p>
+</div>
+<form id="survey-form">
+  <div>
+  <label class="form-control" for="name" id="name-label">Name</label>
+   <input id="name" type="text" name="name" placeholder="Enter Your Name" class="box-type" required> 
+  </div>
+  <div>
+    <label class="form-control" for="email" id="email-label">Email</label>
+    <input id="email" type="email" class="box-type" name="email" placeholder="Enter Your Email" required>
+  </div>
+  <div>
+    <label class="form-control" for="number" id="number-label">Aadhaar Card Number(optional)</label>
+    <input id="number"type="number" class="box-type" placeholder="Enter Your Aadhaar Card Number" name="aadhaar" min="100000000000" max="999999999999">
+  </div>
+  
+    <p id="question 1" class="form-control" for="question 1" style="margin-top:-1%">Which doses of the vaccine have you got?</p>
+  <div id="question" style="margin-top:1%">
+    <label for="q1 answer 1" class="button-label"><input type="radio" id="q1 answer 1" value="First Dose" name="q1 answer 1">First Dose
+    <div class="reveal-if-active">
+      <label for="date 1" class="form-control">When Did You Get Your First Dose?</label>
+      <input type="date" class="box-type" name="date 1" id="date 1">
+    </div>
+    </label>
+    <label for="q1 answer 2" class="button-label"><input id="q1 answer 2"  type="radio" value="Both Doses" name="q1 answer 1">Both First And Second Dose
+      <div class="reveal-if-active">
+      <label for="date 1" class="form-control">When Did You Get Your First Dose?</label>
+      <input type="date" class="box-type" name="date 1" id="date 1">
+        <label for="date 2" class="form-control">When Did You Get Your Second Dose?</label>
+      <input type="date" class="box-type" name="date 2" id="date 2">
+    </div>
+    </label>
+  </div>
+  <div style="margin-bottom:2%">
+    <p class="form-control">Which Vaccine Did You Get?</p>
+      <select id="dropdown" name="vaccine" class="box-type" required style="margin-top:-2%">
+        <option disabled selected value>Select Vaccine</option>
+        <option value="Moderna">Moderna</option>
+        <option value="Covishield">Covishield</option>
+        <option value="Covaxin">Covaxin</option>
+        <option value="SputnikV">Sputnik V</option>
+        <option value="other">Other</option>
+      </select>
+  </div>
+  <div>
+    
+    <p class="form-control">Which symptoms did get have after vaccination?(Check all that apply)</p>
+    <div><label for="1" class="form-control">
+      <input type="checkbox" value="fever" id="1" name="experience">Fever
+      </label></div>
+    <div><label for="2" class="form-control">
+      <input type="checkbox" value="Cough" id="2" name="experience">Cough
+    </label></div>
+    <div><label for="3" class="form-control">
+      <input type="checkbox" value="Cold" id="3" name="experience">Cold
+    </label></div>
+    <div><label for="4" class="form-control">
+      <input type="checkbox" value="Fatigue" id="4" name="experience">Fatigue
+    </label></div>
+    <div><label for="5" class="form-control">
+      <input type="checkbox" value="Headache" id="5" name="experience">Headache
+    </label></div>
+     <div><label for="6" class="form-control">
+      <input type="checkbox" value="Loss_Of_Smell" id="6" name="experience">Loss Of Smell
+    </label></div>
+    <div><label for="7" class="form-control">
+      <input type="checkbox" value="Others" id="7" name="experience">Others
+      <div class="reveal-if-active">
+        <input type="text" id="other_symptoms" placeholder="Please Write Your Symptoms" class="box-type">
+        </div>
+    </label></div>
+  </div>
+  <div>
+      <p class="form-control">Any comments or suggestions?</p>
+      <textarea class="input-textarea" id="comments" name="comment"  placeholder="Enter your comments here..."> 
+      </textarea>
+  </div>
+   <div>
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  
+</form>

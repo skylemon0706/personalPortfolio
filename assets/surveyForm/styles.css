@@ -1,0 +1,86 @@
+#title{
+    font-family:'Akronim';
+    border: solid;
+    border-color: red;
+    text-align: center;
+    border-radius:10px;
+    background: rgb(145,253,172);
+    background-size: contain;
+    opacity: 1;
+  }
+  body{ background:url("https://pharmanewsintel.com/images/site/article_headers/_normal/Cartoon.png");
+    background-repeat:repeat;
+    opacity:1;
+  }
+  #description{
+    font-family: "Alex brush";
+    font-size: 40px;
+    text-align: center;
+    background: rgb(145,253,172);
+    border: solid;
+    border-color:red;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-24px;
+    border-top: none;
+    border-radius:10px;
+  }
+  #survey-form{
+    background: rgb(34,193,195);
+  background: linear-gradient(114deg, rgba(34,193,195,1) 0%, rgba(60,253,45,0.9363095580028886) 100%);
+    border-radius:5px;
+    padding-top:15px;
+    padding-left:100px;
+  }
+  .form-control {
+    color:white;
+    font-family:'alex brush';
+    font-size: 30px;
+  }
+  .box-type{
+    display: block;
+    width:80%;
+    height: 25px;
+    margin-top:1%;
+    border-radius:5px;
+    margin-bottom:2%;
+   }
+  .button-label{
+    font-family:'alex brush';
+    color: white;
+    font-size:30px;
+  }
+  #question{
+    margin-top:-4%;
+  }
+  .reveal-if-active {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: scale(0.8);
+    transition: 0.2s;
+  }
+  input[type="radio"]:checked ~ .reveal-if-active,input[type="checkbox"]:checked ~ .reveal-if-active{
+    opacity: 1;
+    max-height: 200px;
+    overflow: visible;
+    padding: 10px 20px;
+    transform: scale(1);
+  }
+  .input-textarea{
+    padding: 0.625rem;
+    resize: vertical;
+    width:40%;
+    color:red;
+  }
+  .submit-button {
+    display: block;
+    margin:20px auto 20px auto;
+    width:80%;
+    background:rgb(145,59,59);
+    cursor: pointer;
+    border-radius:25px;
+    padding:1%;
+    
+  }

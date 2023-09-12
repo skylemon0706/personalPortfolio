@@ -1,0 +1,1148 @@
+@media (min-width:768px){
+    body{
+        margin:0;
+    }
+    #navBar{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        background-color:#94A684;
+        height:5vw;
+    }
+    #navBar a{
+        text-decoration:none;
+        color:black;
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+    }
+    #navBar a:hover{
+        transform:scale(1.2);
+        text-shadow:1px 1px white;
+    }
+    #hero{
+        height:100vh;
+        background-color:#AEC3AE;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero-container{
+        color:black;
+        text-align:center;
+    }
+    h1{
+        margin:0;
+        font-family:Sacramento, cursive;
+        font-style: italic;
+        font-size:4.5vw;
+    }
+    h2{
+        margin:0;
+        font-family:Montserrat, sans-serif;
+        font-style: italic;
+        font-size:2.5vw;
+    }
+    #hero-container> img{
+        margin-top: 5vh;
+        height:12vw;
+        border-radius: 50% ;
+    
+    }
+    #resume{
+        height:100vh;
+        background-color: #E4E4D0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #resume-container{
+        display:grid;
+        grid-template-columns: 2fr 1px 4fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap:1vw 3vw;
+        margin:0px 2vw ;
+    }
+    #education{
+        grid-area: 1/3/2/4;
+    }
+    #workXP{
+        grid-area: 2/3/3/4;
+    }
+    #skill{
+        grid-area: 3/3/4/4;
+    }
+    #vertical-rule-resume{
+        grid-area:1/2/4/3;
+        background-color:black;
+        height:60vh;
+        align-self: center;
+    }
+    #resume-title{
+        grid-area:1/1/4/2;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:15px;
+    }
+    #resume-title > p{
+        font-size: 3vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 900;
+    }
+    #resume-title > a{
+        font-size: 2vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        color:antiquewhite;
+        text-decoration:none;
+        background-color: #1C4FE3;
+        padding:4px 16px 7px 16px;
+        border-radius: 5px;
+    }
+    #resume-title > a:hover{
+        font-size: 2vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        color:antiquewhite;
+        text-decoration:none;
+        background-color: #1C4FE3;
+        padding:4px 16px 7px 16px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 1px black;
+    }
+    .grid-item{
+        justify-self: stretch;
+        align-self: center;
+    }
+    .card{
+        background-color:#D1D1B0;
+        border-radius:20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        padding:0px 10px;
+        
+    }
+    .text-wrap{
+        padding:1vh;
+    }
+    .card-title{
+        font-size:1.5vw;
+        text-align: center;
+    }
+    .card-text{
+        font-size:1.2vw;
+        
+    }
+    #projects{
+        height:100vh;
+        background-color:#FFEEF4;
+    }
+    #projects>#projectTitle>p{
+        margin:0;
+        padding:1.5vw;
+        text-align:center;
+        font-size:3vw;
+        font-family:'Raleway', sans-serif; 
+        font-weight:900; 
+    }
+    #projects .pCard{
+        height:50vh;
+        width:fit-content;
+        background-color:#FFBBD3;
+        border-radius:5px;
+    }
+    #projects .pCard:hover{
+        height:50vh;
+        width:fit-content;
+        background-color:#FFBBD3;
+        border-radius:5px;
+        transform: scale(1.1);
+    }
+    #projects .pCard img{
+     height:45vh;
+     width:auto;
+     border-top-left-radius: 5px;
+     border-top-right-radius:5px;
+     padding:1px;
+    }
+    #projects .pCard p{
+        margin:0;
+        padding:0;
+        font-family:'Raleway', sans-serif;
+        font-weight:900;
+        font-size:1.3vw;
+        text-align:center;
+    }
+    #projects .carousel{
+        display:flex;
+        gap:3vw;
+        overflow-x: scroll;
+        align-items: center;
+        margin:5vw  2vw;
+        height:60vh;
+    }
+    .carousel::-webkit-scrollbar {
+        height: 4px;
+      }
+      
+      /* Track */
+      .carousel::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      /* Handle */
+      .carousel::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+      
+      /* Handle on hover */
+      .carousel::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    #aboutMe{
+        height:100vh;
+        background-color:#E4E4D0;
+    }
+    #aboutMe #aboutMe-heading p{
+        margin:0;
+        padding:1.5vw;
+    }
+    #aboutMe #aboutMe-heading{
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:3vw;
+        text-align:center;
+    }
+    #aboutMe #gallery{
+        display:flex;
+        overflow-x: scroll;
+        align-items: center;
+        
+    }
+    #aboutMe #gallery #galItem1{
+        display:grid;
+        grid-template-columns:auto 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2vw;
+        column-gap: 2vw;
+        margin:auto 7%;
+    }
+    #aboutMe #gallery #galItem1 .gridItem1{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:1/2/2/3;
+    }
+    #aboutMe #gallery #galItem1 .gridItem2{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:2/2/3/3;
+    }
+    #aboutMe #gallery #galItem1 .gridItem3{
+        border-radius:20px;
+        height:84vh;
+        justify-self: center;
+        align-self:center;
+        grid-area:1/3/3/4;
+    }
+    #aboutMe #gallery #galItem1 p{
+        grid-area:1/1/3/2;
+        justify-self:center;
+        align-self:center;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:2vw;
+    }
+    #aboutMe #gallery #galItem2{
+        display:grid;
+        grid-template-columns:auto 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2vw;
+        column-gap: 2vw;
+        margin:auto 7% 0 0;
+    }
+    #aboutMe #gallery #galItem2 p{
+        grid-area:1/1/3/2;
+        justify-self:center;
+        align-self:center;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:2vw;
+    }
+    #aboutMe #gallery #galItem2 .item1{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:1/2/2/3;
+    }
+    #aboutMe #gallery #galItem2 .item2{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:2/2/3/3;
+    }
+    #aboutMe #gallery #galItem2 .item3{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:2/4/3/5;
+    }
+    #aboutMe #gallery #galItem2 .item4{
+        border-radius:20px;
+        
+        justify-self: center;
+        align-self: center;
+        height:84vh;
+        grid-area:1/3/3/4;
+    }
+    #aboutMe #gallery #galItem2 .item5{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:1/4/2/5;
+    }
+    #gallery::-webkit-scrollbar {
+        height: 4px;
+      }
+      
+      /* Track */
+     #gallery::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      
+      /* Handle */
+     #gallery::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+      
+      /* Handle on hover */
+     #gallery::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    #contactMe{
+        height:70vh;
+        background-color:#AEC3AE;
+    }
+    #contactMe p{
+        margin:0;
+        font-size:3vw;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        text-align:center;
+        padding:1vw;
+    }
+    #contactMe #btn-container{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+        height:28vh;
+        zoom:2;
+    }
+    #contactMe .btn1{
+        background-color:#25D366;
+        border-radius:5px;
+        text-decoration:none;
+        font-family: Raleway,sans-serif;
+        font-weight:600;
+        font-size:1vw;
+        color:	white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        width:fit-content;
+        padding:4px;
+    }
+    #contactMe .btn2{
+        background-color:#DB4437;
+        border-radius:5px;
+        text-decoration:none;
+        font-family: Raleway,sans-serif;
+        font-weight:600;
+        font-size:1vw;
+        color:	white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        width:fit-content;
+        padding:4px;
+    }
+    #contactMe .btn:hover{
+        box-shadow:2px 2px 4px black;
+    }
+    #footer{
+        height:30vh;
+        background-color:#94A684;
+    }
+    #footer .bottom-container{
+        display:grid;
+        grid-template: 1fr 1fr/10vw 10vw;
+        position:relative;
+        left:40vw;
+        top:2vw;
+    }
+    #footer a{
+        text-decoration:none;
+        color:rgb(0, 0, 0);
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+        justify-self: center;
+        align-self: center;
+    }
+    #footer a:hover{
+        transform:scale(1.2);
+        text-shadow:1px 1px white;
+    }
+    #footer .copyright{
+        text-decoration:none;
+        color:rgb(247, 247, 247);
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+        grid-area:2/1/3/3;
+        justify-self: center;
+        align-self: center;
+    }
+
+}
+
+@media (max-width:768px){
+    body{
+        margin:0;
+    }
+    #navBar{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        background-color:#94A684;
+        width:100vw;
+        height:5vw;
+    }
+    #navBar a{
+        text-decoration:none;
+        color:black;
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+    }
+    #navBar a:hover{
+        transform:scale(1.2);
+        text-shadow:1px 1px white;
+    }
+    #hero{
+        height: 65vh;
+        background-color:#AEC3AE;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero-container{
+        color:black;
+        text-align:center;
+    }
+    h1{
+        margin:0;
+        font-family:Sacramento, cursive;
+        font-style: italic;
+        font-size:4.5vw;
+    }
+    h2{
+        margin:0;
+        font-family:Montserrat, sans-serif;
+        font-style: italic;
+        font-size:2.5vw;
+    }
+    #hero-container> img{
+        margin-top: 5vh;
+        height:20vw;
+        border-radius: 50% ;
+    
+    }
+    #resume{
+        height:100vh;
+        background-color: #E4E4D0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #resume-container{
+        display:grid;
+        grid-template-columns: 2fr 1px 4fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap:1vw 3vw;
+        margin:0px 2vw ;
+    }
+    #education{
+        grid-area: 1/3/2/4;
+    }
+    #workXP{
+        grid-area: 2/3/3/4;
+    }
+    #skill{
+        grid-area: 3/3/4/4;
+    }
+    #vertical-rule-resume{
+        grid-area:1/2/4/3;
+        background-color:black;
+        height:60vh;
+        align-self: center;
+    }
+    #resume-title{
+        grid-area:1/1/4/2;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #resume-title > p{
+        font-size: 3vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 900;
+    }
+    #resume-title > a{
+        font-size: 2vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        color:antiquewhite;
+        text-decoration:none;
+        background-color: #1C4FE3;
+        padding:4px 16px 7px 16px;
+        border-radius: 5px;
+    }
+    #resume-title > a:hover{
+        font-size: 2vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        color:antiquewhite;
+        text-decoration:none;
+        background-color: #1C4FE3;
+        padding:4px 16px 7px 16px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 1px black;
+    }
+    .grid-item{
+        justify-self: stretch;
+        align-self: center;
+    }
+    .card{
+        background-color:#D1D1B0;
+        border-radius:20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        padding:0px 10px;
+        
+    }
+    .text-wrap{
+        padding:1vh;
+    }
+    .card-title{
+        font-size:1.5vw;
+        text-align: center;
+    }
+    .card-text{
+        font-size:1.2vw;
+        
+    }
+    #projects{
+        height:100vh;
+        background-color:#FFEEF4;
+    }
+    #projects>#projectTitle>p{
+        margin:0;
+        padding:1.5vw;
+        text-align:center;
+        font-size:3vw;
+        font-family:'Raleway', sans-serif; 
+        font-weight:900; 
+    }
+    #projects .pCard{
+        height:50vh;
+        width:fit-content;
+        background-color:#FFBBD3;
+        border-radius:5px;
+    }
+    #projects .pCard img{
+     height:45vh;
+     width:auto;
+     border-top-left-radius: 5px;
+     border-top-right-radius:5px;
+     padding:1px;
+    }
+    #projects .pCard p{
+        margin:0;
+        padding:0;
+        font-family:'Raleway', sans-serif;
+        font-weight:900;
+        font-size:1.3vw;
+        text-align:center;
+    }
+    #projects .carousel{
+        display:flex;
+        gap:3vw;
+        overflow-x: scroll;
+        align-items: center;
+        margin:11vw  2vw;
+        
+    }
+    .carousel::-webkit-scrollbar {
+        display:none;
+    }
+    #aboutMe{
+        height:100vh;
+        background-color:#E4E4D0;
+    }
+    #aboutMe #aboutMe-heading p{
+        margin:0;
+        padding:1.5vw;
+    }
+    #aboutMe #aboutMe-heading{
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:3vw;
+        text-align:center;
+    }
+    #aboutMe #gallery{
+        display:flex;
+        overflow-x: scroll;
+        align-items: center;
+        transform:scale(0.85);
+    }
+    #aboutMe #gallery #galItem1{
+        display:grid;
+        grid-template-columns:auto 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2vw;
+        column-gap: 2vw;
+        margin:auto 7% 0 0;
+        transform: scale(0.87);
+    }
+    #aboutMe #gallery #galItem1 .gridItem1{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:1/2/2/3;
+    }
+    #aboutMe #gallery #galItem1 .gridItem2{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:2/2/3/3;
+    }
+    #aboutMe #gallery #galItem1 .gridItem3{
+        border-radius:20px;
+        height:84vh;
+        justify-self: center;
+        align-self:center;
+        grid-area:1/3/3/4;
+    }
+    #aboutMe #gallery #galItem1 p{
+        grid-area:1/1/3/2;
+        justify-self:center;
+        align-self:center;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:2vw;
+    }
+    #aboutMe #gallery #galItem2{
+        display:grid;
+        grid-template-columns:auto 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2vw;
+        column-gap: 2vw;
+        margin:auto 7% 0 0;
+    }
+    #aboutMe #gallery #galItem2 p{
+        grid-area:1/1/3/2;
+        justify-self:center;
+        align-self:center;
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:2vw;
+    }
+    #aboutMe #gallery #galItem2 .item1{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:1/2/2/3;
+    }
+    #aboutMe #gallery #galItem2 .item2{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:2/2/3/3;
+    }
+    #aboutMe #gallery #galItem2 .item3{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:2/4/3/5;
+    }
+    #aboutMe #gallery #galItem2 .item4{
+        border-radius:20px;
+        
+        justify-self: center;
+        align-self: center;
+        height:84vh;
+        grid-area:1/3/3/4;
+    }
+    #aboutMe #gallery #galItem2 .item5{
+        border-radius:20px;
+        width:30vw;
+        justify-self: center;
+        align-self: center;
+        height:40vh;
+        grid-area:1/4/2/5;
+    }
+    #contactMe{
+        height:70vh;
+        background-color:#AEC3AE;
+    }
+    #contactMe p{
+        margin:0;
+        font-size:3vw;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        text-align:center;
+        padding-top:1vw;
+    }
+    #contactMe #btn-container{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:2vw;
+        height:28vh;
+        zoom:2;
+    }
+    #contactMe .btn1{
+        background-color:#25D366;
+        border-radius:5px;
+        text-decoration:none;
+        font-family: Raleway,sans-serif;
+        font-weight:600;
+        font-size:1vw;
+        color:	white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        width:fit-content;
+        padding:4px;
+    }
+    #contactMe .btn2{
+        background-color:#DB4437;
+        border-radius:5px;
+        text-decoration:none;
+        font-family: Raleway,sans-serif;
+        font-weight:600;
+        font-size:1vw;
+        color:	white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        width:fit-content;
+        padding:4px;
+    }
+    #contactMe .btn:hover{
+        box-shadow:2px 2px 4px black;
+    }
+    #footer{
+        height:30vh;
+        background-color:#94A684;
+    }
+    #footer .bottom-container{
+        display:grid;
+        grid-template: 1fr 1fr/10vw 10vw;
+        position:relative;
+        left:40vw;
+        top:2vw;
+    }
+    #footer a{
+        text-decoration:none;
+        color:rgb(0, 0, 0);
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+        justify-self: center;
+        align-self: center;
+    }
+    #footer a:hover{
+        transform:scale(1.2);
+        text-shadow:1px 1px white;
+    }
+    #footer .copyright{
+        text-decoration:none;
+        color:rgb(247, 247, 247);
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+        grid-area:2/1/3/3;
+        justify-self: center;
+        align-self: center;
+    }
+
+}
+@media (max-width:576px){
+    body{
+        margin:0;
+    }
+    #navBar{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        background-color:#94A684;
+        width:100vw;
+        height:5vw;
+    }
+    #navBar a{
+        text-decoration:none;
+        color:black;
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+    }
+    #navBar a:hover{
+        transform:scale(1.2);
+        text-shadow:1px 1px white;
+    }
+    #hero{
+        height: 60vh;
+        background-color:#AEC3AE;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #hero-container{
+        color:black;
+        text-align:center;
+    }
+    h1{
+        margin:0;
+        font-family:Sacramento, cursive;
+        font-style: italic;
+        font-size:4.5vw;
+    }
+    h2{
+        margin:0;
+        font-family:Montserrat, sans-serif;
+        font-style: italic;
+        font-size:2.5vw;
+    }
+    #hero-container> img{
+        margin-top: 5vh;
+        height:30vw;
+        border-radius: 50% ;
+    
+    }
+    #resume{
+        height: 60vh;
+        background-color: #E4E4D0;
+        
+    }
+    #resume-container{
+        display:flex;
+        flex-direction:column;
+        height:inherit;
+        justify-content:baseline;
+        gap:15px;
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+    #vertical-rule-resume{
+        height:0px;
+    }
+    #resume-title > p{
+        font-size: 3vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 900;
+    }
+    #resume-title > a{
+        font-size: 2vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        color:antiquewhite;
+        text-decoration:none;
+        background-color: #1C4FE3;
+        padding:4px 16px 7px 16px;
+        border-radius: 5px;
+    }
+    #resume-title > a:hover{
+        font-size: 2vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: 800;
+        color:antiquewhite;
+        text-decoration:none;
+        background-color: #1C4FE3;
+        padding:4px 16px 7px 16px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 1px black;
+    }
+    .card{
+        background-color:#D1D1B0;
+        border-radius:20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        padding:0px 10px;
+        font-size:2vw;
+        width:70vw;
+    }
+    .text-wrap{
+        padding:1vh;
+    }
+    .card-title{
+        font-size:3vw;
+        text-align: center;
+    }
+    #projects{
+        height:60vh;
+        background-color:#FFEEF4;
+    }
+    #projects>#projectTitle>p{
+        margin:0;
+        padding:1.5vw;
+        text-align:center;
+        font-size:3vw;
+        font-family:'Raleway', sans-serif; 
+        font-weight:900; 
+    }
+    #projects .pCard{
+        height:23vh;
+        width:fit-content;
+        background-color:#FFBBD3;
+        border-radius:5px;
+    }
+    #projects .pCard img{
+     height:20vh;
+     width:auto;
+     border-top-left-radius: 5px;
+     border-top-right-radius:5px;
+     padding:1px;
+    }
+    #projects .pCard p{
+        margin:0;
+        padding:0;
+        font-family:'Raleway', sans-serif;
+        font-weight:900;
+        font-size:1.3vw;
+        text-align:center;
+    }
+    #projects .carousel{
+        display:flex;
+        gap:3vw;
+        flex-direction:column;
+        overflow-y: scroll;
+        align-items: center;
+        margin:5vw  2vw;
+        height:46vh;
+    }
+    .carousel::-webkit-scrollbar {
+        display:none;
+    }
+    #aboutMe{
+        height:70vh;
+        background-color:#E4E4D0;
+    }
+    #aboutMe #aboutMe-heading p{
+        margin:0;
+        padding:1.5vw;
+    }
+    #aboutMe #aboutMe-heading{
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:3vw;
+        text-align:center;
+    }
+    #aboutMe #gallery{
+        display:flex;
+        height:55vh;
+        flex-direction:column;
+        align-items:stretch;
+    }
+    #aboutMe #gallery #galItem1{
+        display:flex;
+        
+    }
+    #aboutMe #gallery #galItem1 .gridItem1{
+        border-radius:20px;
+        height:25vh;
+        min-width: max-content;
+    }
+    #aboutMe #gallery #galItem1 .gridItem2{
+        border-radius:20px;
+        height:25vh;
+        min-width: max-content;
+    }
+    #aboutMe #gallery #galItem1 .gridItem3{
+        border-radius:20px;
+        height:25vh;
+        min-width: max-content;
+    }
+    #aboutMe #gallery #galItem1 p{ 
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:2vw;
+    }
+    #aboutMe #gallery #galItem2{
+        display:flex;
+    }
+    #aboutMe #gallery #galItem2 p{
+        text-orientation: upright;
+        writing-mode: vertical-lr;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        font-size:2vw;
+        margin:0;
+    }
+    #aboutMe #gallery #galItem2 .item1{
+        border-radius:20px;
+        height:25vh;
+        min-width: max-content;
+    }
+    #aboutMe #gallery #galItem2 .item2{
+        border-radius:20px;
+        height:25vh;
+        min-width: max-content;
+    }
+    #aboutMe #gallery #galItem2 .item3{
+        border-radius:20px;
+        height:25vh;
+        min-width: max-content;
+    }
+    #aboutMe #gallery #galItem2 .item4{
+        border-radius:20px;
+        height:25vh;
+        min-width: max-content;
+    }
+    #aboutMe #gallery #galItem2 .item5{
+        border-radius:20px;
+        height:25vh;
+        min-width: max-content;
+    }
+    #contactMe{
+        height:50vh;
+        background-color:#AEC3AE;
+    }
+    #contactMe p{
+        margin:0;
+        font-size:3vw;
+        font-family:Raleway, sans-serif;
+        font-weight:900;
+        text-align:center;
+        padding:1vw;
+    }
+    #contactMe #btn-container{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:4vw;
+        height:20vh;
+        zoom:2;
+    }
+    #contactMe .btn1{
+        background-color:#25D366;
+        border-radius:5px;
+        text-decoration:none;
+        font-family: Raleway,sans-serif;
+        font-weight:600;
+        font-size:1vw;
+        color:	white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        width:fit-content;
+        padding:4px;
+    }
+    #contactMe .btn2{
+        background-color:#DB4437;
+        border-radius:5px;
+        text-decoration:none;
+        font-family: Raleway,sans-serif;
+        font-weight:600;
+        font-size:1vw;
+        color:	white;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        width:fit-content;
+        padding:4px;
+    }
+    #contactMe .btn:hover{
+        box-shadow:2px 2px 4px black;
+    }
+    #footer{
+        height:20vh;
+        background-color:#94A684;
+    }
+    #footer .bottom-container{
+        display:grid;
+        grid-template: 1fr 1fr/10vw 10vw;
+        position:relative;
+        left:40vw;
+        top:1vw;
+    }
+    #footer a{
+        text-decoration:none;
+        color:rgb(0, 0, 0);
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+        justify-self: center;
+        align-self: center;
+    }
+    #footer a:hover{
+        transform:scale(1.2);
+        text-shadow:1px 1px white;
+    }
+    #footer .copyright{
+        text-decoration:none;
+        color:rgb(247, 247, 247);
+        font-size:1.5vw;
+        font-family:'Raleway', sans-serif;
+        font-weight: bold;
+        grid-area:2/1/3/3;
+        justify-self: center;
+        align-self: center;
+    }
+
+}
